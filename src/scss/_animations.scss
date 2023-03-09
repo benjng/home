@@ -1,9 +1,11 @@
 @keyframes animStar {
   from {
-    transform: translateY(0px);
+    // transform: translateY(0px);
+    transform: translate(-300px, -200px);
   }
   to {
-    transform: translateY(-2000px);
+    // transform: translateY(-2000px);
+    transform: translate(-300px, -2200px);
   }
 }
 
