@@ -55,7 +55,7 @@ const about = {
   imageLink: require("../editable-stuff/cutJ_2.gif"),
   imageSize: 375,
   message:
-    "My name is Benjamin Ng. Nice to meet you.",
+    "My name is Benjamin Ng. I am pursuing full-time engineering position to enhance what I have learnt into the working environment. Though transferring from another industry, it empowers me to inspire my future team with a unique and a big-picture perspective. ",
   resume: "https://docs.google.com/document/d/1LQrcAyYqQrjHBbTwQOK5fRMStCHU6x4W/edit?usp=sharing&ouid=102758778485003745506&rtpof=true&sd=true",
 };
 
@@ -133,25 +133,25 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Art Work",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Donuts Set',// Here Add Company Name
+      companylogo: require('../assets/img/Donuts.png'),
+      date: '',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Space Set',
+      companylogo: require('../assets/img/SpaceSet.png'),
+      date: '',
     },
   ]
 }
 
 // Blog SECTION
-// const blog = {
-//   show: false,
-// };
+const blog = {
+  show: true,
+};
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
